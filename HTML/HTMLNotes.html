@@ -1,0 +1,164 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>HTML Notes </title>
+</head>
+<body>
+<H1>Introduction</H1>
+<p> This is a html document that contains some notes on html that can help with people who are just starting out with html </p>
+
+<h2> What is HTML</h2>
+<ul>
+	<li> HTML is short for hyper text markup language  </li>
+	<li> HTML is not a programming language</li>
+	<li> HTML is a Markup language for creating webpages and documents</li>
+	<li> HTML is a building block of the web</li>
+</ul>
+<h2> What do you need to get started </h2>
+<ul>
+	<li> A webrowser</li>
+	<li> A text editor </li>
+</ul>
+<h2> Creating an HTML file s</h2>
+<ul>
+	<li> Creating an HTML file does not need a server</li>
+	<li> Files must end with .html extension</li>
+	<li> Runs in a web browser</li>
+	<li> Index.html is the root or hompage for the website</li>
+</ul>
+
+<h2> Tag Syntax </h2>
+<ul>
+	<li> Element names are surrounded by angle brackts</li>
+	<li> Tags normally come in pairs</li>
+	<li> End tag is usually the same as the start tag just with a forward slahs</li>
+	<li> Some tags will close them selves </li>
+	<li> Tags are started using  < some tage name  > and ended using < some tage name >  but  with a / before the tag name </li>
+	<li> Tags can be auto completed with by pressing the tab button</li>
+	<li> headers are contained in a h tag  there are 6 different header tags h1, h2, h3, h4, h5, h6 </li>
+	<li> paragraphs are contained in a p tag</li>
+	<li> some tags are self closing such as br</li>
+
+</ul>
+<h2> DOCTYPE</h2>
+<ul>
+	<li> The doctype explains what type of document the page is </li>
+</ul>
+
+<h2> Inlinve vs block level elements </h2>
+<h3> Inline elements </h3>
+<ul>
+	<li> Inline elements do not start on a new line </li>
+	<li> Inline elements take only the necessary width</li>
+</ul>
+<h3> Block elements</h3>
+<ul>
+	<li> Block elements start on a new line </li>
+	<li> Block elements also take the full width availabale. </li>
+	<li> An example of a block level element wold be div, h2, p, form etc </li>
+	<li> An example of a inline level element would be span, img, a, etc </li>
+</ul>
+<h3>Tag Attributes </h3>
+<ul>
+	<li> All tags can have an attribute</li>
+	<li> Attributes provide infromation about an element</li>
+	<li> Attributes are palced within the start tag </li>
+	<li> Atributes are a key value pair </li>
+</ul>
+<h3> HTML5 Semantic tags </h3>
+<ul>
+	<li> A semantic element clearly describes its meanin to the browser and the developer examples are:</li>
+	<li> header</li>
+	<li> foter </li>
+	<li> main </li>
+	<li> article</li>
+	<li> nav </li>
+	<li> section </li>
+	<li> details</li>
+
+</ul>
+<h3> Lists </h3>
+<ul>
+	<li> There are two types of lists in HTML </li>
+	<ol>
+		<li> Ordered list </li>
+		<li> Unordered lists </li>
+	</ol>
+	<li> Ordred lists contatin numbers Unordred lists contain bullet points </li>
+</ul>
+</body>
+<h3> You can also create tables in html using the table tag and example table may look like </h3>
+<table>
+	<thead>
+		<tr>
+			<th>Name</th>
+			<th> Email </th>
+			<th> Age </th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td> Zachary </td>
+			<td> zachary.anstey@gmail.com</td>
+			<td> 23 </td>
+		</tr>
+		<tr>
+			<td> John doe</td>
+			<td> Johndoe@email.ca</td>
+			<td> 44 </td>
+		</tr>
+	</tbody>
+</table>
+<h3> Forms </h3>
+<p> You can also create forms in HTML using the form tag. Examples are shown below </p>
+<form action = 'process.php' method ="POST"> <!-- process.php is not a real file-->
+	<div>
+		<label> First Name </label>
+		<input type="text" name="first-name" placeholder="Enter first name ">
+	</div>
+	<br>
+	<div>
+		<label> Last Name</label>
+		<input type="text" name="last-names">
+	</div>
+	<br> 
+	<div>
+		<label> Email </label>
+		<input type="email" name="email">
+	</div>
+	<br> 
+	<div> 
+		<label> Message</label>
+		<textarea name="message"> </textarea>
+	</div>
+	<div>
+		<label> Gender </label>
+		<select name ='gender'>
+		<option value ='male'>Male</option>
+		<option value ='female'>Female</option>
+	</select>
+	</div>
+	<br>
+	<div>
+		<label>AGE</label>
+		<input type="numer" name="age" value=23 >
+	</div>
+	<br>
+	<div>
+		<label>Birthday</label>
+		<input type="date" name="birthday">
+	</div>
+	<br>
+	<input type="submit" name="submit" value="submit">
+</form>
+<h3> You can also create buttons in html using the button tag </h3>
+<button>Click me </button>
+<h3> You can also display images in html using the image tag</h3>
+<a href="images/sample.jpg">
+<img src="sample.jpg" alt = " My sample image "> <!--  The alt my sample image is text that will display if the image can not be found you can also wrap a link around the image using the a tag--->
+</a>
+<h3>Quotations</h3>
+<p> You can also use quotes in html. The different kinds of quotes are blockquote and cite</p>
+<p><cite>HTML crash course</cite> by Brad Traversy </p>
+</html>
